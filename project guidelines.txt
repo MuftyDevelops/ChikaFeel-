@@ -1,0 +1,40 @@
+RESTAURANT WEBSITE GUIDE (HTML/CSS/JAVASCRIPT)
+
+1. GOALS: 
+    [Main Goals]
+- Attract new customers. 
+- Quick order and delivery
+
+  Audience: 
+- Make it easier for everyone to make order. 
+
+ The Website Structure and Content:
+
+ 2. Essential Pages:
+- Homepage: Introduction of the restaurant, ambiance, and unique selling points.
+
+- Menu Page: Clearly display your menu with descriptions, pictures (if possible), and pricing.
+
+- About Us: Share your restaurant's story, vision, and team.
+
+- Contact Us: Provide contact information, location details, and a map (if applicable).
+
+Consider additional pages like "Gallery" (photos of your restaurant), 
+
+--"Testimonials" (positive customer reviews), or --"Events" (if you host special events).
+
+- Content Creation: Gather high-quality photos of your restaurant, food, and ambiance. Write clear and engaging content for each page.
+
+3. Information Gathering:
+
+- Gather all necessary content: Restaurant name, address, phone number, email address, menu items with descriptions (and prices!), high-quality photos, and any other relevant information.
+ 
+- Branding: Do you have a logo or specific color scheme? Use this to maintain a consistent brand identity on your website.
+
+4.  Learning the Basics:
+
+-HTML: This is the foundation of webpages, defining the structure and content.
+
+- CSS: CSS styles the HTML content, controlling the layout, fonts, colors, and overall visual presentation.
+
+- JavaScript: JavaScript adds interactivity to your website, enabling features like animations, forms, or image carousels.

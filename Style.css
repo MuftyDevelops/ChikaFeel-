@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif, Arial;
+}
+
+body{
+    background-color: #ddcdcd;
+    color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 8%;
+    background: rgb(156, 4, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+
+.logo{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    cursor: default;
+    filter: brightness(100%);
+    animation: floatImage 4s ease-in-out infinite;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+.navbar a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fcf6f6;
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    color: rgb(128, 7, 73);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color:#333;
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 25px;
+    padding: 15px;
+    display: flex;
+    gap: 1.5em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    transition: -background 0.3s;
+    background: #f77a05;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    background-color: #eeedf1;
+    color: #000;
+    border-radius: 10px;
+}
+
+button{
+    margin: 0;
+    padding: 1.5em;
+    background-color: #ddcdcd;
+    color: rgb(156, 4, 88);
+    font-weight: 600;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px;
+    gap: 0.5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgb(19, 17, 18);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(156, 4, 88);
+}
+
+
+h1 {
+    color: rgb(255, 249, 249);
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: -25%;
+    margin-bottom: 90%;
+    margin-left: 50%;
+    padding: 20px;
+}
+span{
+    color: rgb(156, 4, 88);
+}
+
+img{
+    width: 50%;
+    height: auto;
+    margin-top: 15%;
+    filter: brightness(100%);
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.welcome-page p{
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-top: -90%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.menu-container1 h5{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu-page h1{
+    color: #0e0b0d;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 73%;
+    margin-left: 20%;
+    padding: 15%;
+    padding-right: 10px;
+}
+
+.menu-page p {
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-top: -118%;
+    margin-left: 20%;
+    padding: 15%;
+    padding-right: 10px;
+}
+.menu-page img{
+    width: 40%;
+    height: auto;
+    margin-top: -20%;
+    filter: brightness(100%);
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+.menu-container1 h1{
+    color: rgb(136, 7, 82);
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -28%;
+    margin-bottom: 90%;
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.menu-container1 p{
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    margin-top: -90%;
+    margin-bottom: -80%;
+    margin-left: 50%;
+    padding: 20px;
+}
+.menu-container1 h5{
+    color: rgb(136, 7, 82);
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 80%;
+    margin-bottom: 90%;
+    margin-left: 50%;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.menu-container h1{
+    color: #770551;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -100%;
+    margin-left: 20%;
+    padding: 15%;
+    padding-right: 10px;
+}
+
+.menu-item {
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(32.333% - 10px); /* 3 items per row with spacing */
+    margin-bottom: 70%;
+    margin-top: -60%;
+    transition: transform 0.2s;
+}
+
+.menu-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #333333;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 20px); /* 2 items per row with spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: 100%; /* 1 item per row */
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-form-container {
+    margin-top: -35%;
+    background-color: #550c28;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    color: #eeedf1;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    color: #eeedf1;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #a19898;
+    border-radius: 15px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #9b0a42;
+    color: rgb(172, 153, 153);
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #4d0413;
+}
